@@ -3,11 +3,11 @@
 /*
  * BANCO DE DADOS
  */
-if ($_SERVER['HTTP_HOST'] == 'localhost'):
+if ($_SERVER['HTTP_HOST'] == 'http://camadacorp.com.br'):
     define('SIS_DB_HOST', 'localhost'); //Link do banco de dados no localhost
-    define('SIS_DB_USER', 'root'); //Usu�rio do banco de dados no localhost
-    define('SIS_DB_PASS', ''); //Senha  do banco de dados no localhost
-    define('SIS_DB_DBSA', 'gym_three'); //Nome  do banco de dados no localhost
+    define('SIS_DB_USER', 'u837848876_gym3'); //Usu�rio do banco de dados no localhost
+    define('SIS_DB_PASS', 'f]XAiRK7'); //Senha  do banco de dados no localhost
+    define('SIS_DB_DBSA', 'u837848876_gym3'); //Nome  do banco de dados no localhost
 else:
     define('SIS_DB_HOST', 'localhost'); //Link do banco de dados no servidor
     define('SIS_DB_USER', 'root'); //Usu�rio do banco de dados no servidor
