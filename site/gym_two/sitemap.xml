@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost/gym_two</loc>
+<lastmod>2020-04-06T22:15:11-03:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>1.0</priority >
+</url>
+<url>
+<loc>http://localhost/gym_two/artigos/fitness</loc>
+<lastmod>2020-04-04T01:08:40-03:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority >
+</url>
+<url>
+<loc>http://localhost/gym_two/artigos/fitness-2</loc>
+<lastmod>2020-04-04T01:08:51-03:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority >
+</url>
+<url>
+<loc>http://localhost/gym_two/artigos/gym</loc>
+<lastmod>2020-04-04T01:09:06-03:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority >
+</url>
+<url>
+<loc>http://localhost/gym_two/artigos/gym-4</loc>
+<lastmod>2020-04-04T01:09:18-03:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority >
+</url>
+<url>
+<loc>http://localhost/gym_two/artigo/lorem-ipsum-dolor-sit-amet-1</loc>
+<lastmod>2020-04-02T00:00:00-03:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority >
+</url>
+<url>
+<loc>http://localhost/gym_two/artigo/lorem-ipsum-dolor-sit-amet-2</loc>
+<lastmod>2020-04-02T00:00:00-03:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority >
+</url>
+<url>
+<loc>http://localhost/gym_two/artigo/lorem-ipsum-dolor-sit-amet-3</loc>
+<lastmod>2020-04-02T00:00:00-03:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority >
+</url>
+<url>
+<loc>http://localhost/gym_two/artigo/lorem-ipsum-dolor-sit-amet-4</loc>
+<lastmod>2020-04-02T00:00:00-03:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority >
+</url>
+<url>
+<loc>http://localhost/gym_two/artigo/lorem-ipsum-dolor-sit-amet</loc>
+<lastmod>2020-04-02T00:00:00-03:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority >
+</url>
+</urlset>

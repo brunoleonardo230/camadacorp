@@ -1,0 +1,1566 @@
+@media (max-width: 1366px) {
+a.back_to_home {
+	font-size: 15px;
+	padding: 10px 17px;
+}
+a.back_to_home:hover {
+	font-size: 15px;
+	padding: 10px 17px;
+}
+.slide-content .large_txt p {
+	font-size: 100px;
+}
+.error_con img {
+	width: 60%;
+	margin: auto;
+}
+.content {
+	top: 50%;
+	right: 3%;
+	text-align: center;
+	color: #fff;
+	transform: translate(0%, -50%);
+}
+.comeing_con h1 {
+	font-size: 69px;
+}
+.num {
+	font-size: 70px;
+}
+.text {
+	font-size: 22px;
+}
+.coming_img img {
+	width: 90%;
+	margin-left: -50px;
+}
+.clock {
+	overflow: hidden;
+}
+.home_about_sec img {
+    width: 130%;
+    float: right;
+}
+.aimg_sec {
+    margin-top: 60px;
+}
+}
+ 
+@media (min-width: 1280px) and (max-width: 1281px){
+.trainer_sec .owl-carousel .owl-item .topimg {
+    width: auto !important;
+    margin-left: 0px;
+	margin:auto !important;
+}
+.timetable_sec .filter-tabs {
+    width: 76%;
+}
+.courses_box {
+    min-height: 218px !important;
+}
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+.about_img img {
+	margin-top: 40px;
+}
+.inner_about_con {
+	padding-top: 80px;
+}
+.blog_main_sec {
+	padding: 40px 0 40px;
+}
+.plan_detail p {
+	font-size: 14px;
+}
+section.testimonials_box {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.testimonials_con_box p {
+	padding: 20px 20px 40px 20px;
+}
+.video_sec .container-fluid {
+	padding: 75px;
+}
+.trainer_info {
+    bottom: 7px;
+    padding: 12px;
+    width: 83%;
+    left: 37px;
+	height:140px;
+}
+.trainer_sec {
+	padding: 60px 0;
+}
+.slide-content .large_txt p {
+	font-size: 70px;
+	line-height: 80px;
+	padding-left: 70px;
+	bottom: 90px;
+}
+.banner-slide.owl-carousel.owl-drag .owl-item {
+	height: 670px;
+}
+.single-banner-slide {
+	height: 580px;
+}
+a.slider_readmore {
+	display: none !important;
+}
+.home_about_sec {
+	padding: 0px 0 50px;
+}
+.course_sec {
+	padding: 60px 0;
+}
+.trainer_sec .owl-carousel .owl-item .topimg2 {
+	top: 26px;
+	width: 278px;
+	z-index: -1;
+}
+.trainer_sec .owl-carousel .owl-item .topimg {
+	width: 210px;
+	margin-left: 34px;
+	filter: grayscale(100%);
+	z-index: 99999;
+	margin-top: 2px;
+}
+.timetable_sec .filter-tabs li {
+	margin: 0 5px;
+}
+.timetable_sec {
+    padding: 0px 0 80px;
+}
+.owl-theme .owl-dots {
+	margin-top: 20px;
+}
+.home_contact_sec {
+	background-position: -90px;
+	width: 100%;
+}
+.blog_sec {
+	padding: 50px 0 30px;
+}
+.blog_sec .blog_info {
+    padding: 30px 15px;
+}
+.error_con img {
+	width: 100%;
+	margin: auto;
+}
+.content {
+	right: 15%;
+}
+.contact_form {
+	margin-top: 30px;
+}
+.personal_detail h1 {
+	font-size: 67px;
+}
+.personal_detail {
+    margin-top: 70px;
+}
+.blog_txt {
+    padding: 120px 10px 0;
+}
+.inner_trainer .topimg2 {
+	width: 288px;
+}
+.inner_trainer .topimg {
+	width: 221px;
+	margin-left: 32px;
+}
+.trainer_informaction {
+	bottom: 15px;
+	width: 284px;
+	padding: 30px;
+	left: 15px;
+}
+.courses_box {
+    background: #fff;
+    min-height: 188px;
+}
+.courses_img {
+    width: 50%;
+}
+.courses_con p {
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.courses_con h2 {
+    padding-top: 23px;
+}
+.trainer_sec .owl-carousel .owl-item .topimg {
+    margin-left: 0px;
+}
+.trainer_info1 {
+    height: 130px;
+    bottom: 6px;
+    width: 83%;
+    padding: 25px;
+    left: 24px;
+}
+.home_about_sec {
+    padding: 0px 0 0px;
+    margin-top: -30px;
+}
+.courses_con p {
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: 500;
+    line-height: 28px;
+}
+a.read_coursr {
+    padding-bottom: 28px;
+}
+}
+@media (min-width: 1024px) and (max-width: 1279px){
+.slide-content {
+    top: 0%;
+}
+.home_about_sec .primary-btn {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.courses_img {
+    width: 35%;
+}
+.courses_con p {
+    font-size: 14px !important;
+    line-height: 29px;
+	margin-top: 19px !important;
+    letter-spacing: 1px;
+}
+.right_form {
+    margin: 50px auto;
+    margin-top: 175px;
+}
+.circle2 {
+    border: 7px solid #ee6c0c;
+    border-radius: 250px;
+    height: 270px;
+    width: 270px;
+}
+.trainer_sec .owl-carousel .owl-item .topimg{
+	margin-left:0px;
+}
+.trainer_info {
+    height: 130px;
+    bottom: 6px;
+    width: 87%;
+    padding: 25px;
+    left: 24px;
+}
+.slider_text p {
+    margin-left: 90px;
+}	
+.aimg_sec {
+    margin-top: 0px;
+}
+.home_about_sec .title {
+    margin-bottom: 20px;
+}
+.courses_con p {
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.trainer_sec .circle1:hover .trainer_info {
+    display: block;
+    z-index: 99999;
+}
+.trainer_info {
+    left: 22px;
+}
+.timetable_sec .project-box .text-content h4 {
+    font-size: 15px;
+}
+.inner_about_con {
+    padding-top: 40px;
+}
+.personal_detail h1 {
+    font-size: 50px;
+}
+} 
+@media (min-width: 768px) and (max-width: 1023px) {
+.blog_main_sec {
+    padding: 30px 0 60px;
+}
+.blog_txt {
+    padding: 120px 10px 0;
+}
+.home_about_sec img {
+    margin-top: 80px;
+}
+.home_about_sec .primary-btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.courses_con p {
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 10px;
+    line-height: 23px;
+}
+a.read_coursr {
+    padding-bottom: 20px;
+}
+.aimg_sec {
+    margin-top: 0px;
+}
+#slider2 .owl-dots {
+    display: block;
+	margin-top:0px;
+}
+.plan_detail {
+	overflow: hidden;
+}
+.progress_box {
+	margin-top: 30px;
+}
+section.testimonials_box {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.trainer_sec .owl-carousel .owl-item .topimg {
+	width: 80%;
+	margin-left: 33px;
+	margin-top: -5px;
+}
+.trainer_sec .owl-carousel .owl-item .topimg2 {
+	width: 97%;
+	top: 20px;
+	left: 8px;
+}
+.main-footer .footer-widget-area .footer-widget {
+	padding-left: 15px;
+}
+.main-footer .quick-links {
+	padding-left: 15px !important;
+}
+.main-footer .footer-widget-area {
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.trainer_sec {
+	padding: 50px 0;
+}
+.blogpage2 .main-menu .nav li {
+	padding: 0 0px 0px 30px;
+}
+.img_box {
+	display: none;
+}
+.slide-content .large_txt p {
+	font-size: 80px;
+	line-height: 90px;
+}
+.slide-content {
+	top: 0%;
+}
+.single-banner-slide {
+	height: 600px;
+}
+.banner-slide.owl-carousel.owl-drag .owl-item {
+	height: 600px;
+}
+.phone {
+	display: block;
+}
+.desktop {
+	display: none;
+}
+.course_sec .course_box:before {
+	width: 185px;
+	transform: skewX(-0deg);
+	-webkit-transform: skewX(0deg);
+	-ms-transform: skewX(-0deg);
+	-o-transform: skewX(-0deg);
+	-moz-transform: skewX(-0deg);
+}
+.course_sec .content-box {
+	width: 100%;
+}
+.course_sec {
+	padding: 50px 0;
+}
+.trainer_info {
+	bottom: 19px;
+	left: 24px;
+}
+.timetable_sec .filter-tabs {
+	width: 100%;
+}
+.timetable_sec .filter-tabs li {
+	margin: 0 5px;
+}
+.timetable_sec .filter-tabs li {
+	padding: 7px 16px;
+	font-size: 13px;
+	margin: 0 5px;
+}
+.video_sec .container-fluid {
+	padding: 85px;
+}
+.blog_sec {
+	padding: 50px 0 0px;
+}
+.home_contact_sec {
+	background-position: right;
+}
+.timetable_sec .project-box .text-content h4 {
+	font-size: 14px;
+}
+.timetable_sec .project-box .text-content {
+	margin: 20px 0px;
+	padding: 0 0px;
+}
+.timetable_sec {
+	padding: 0 0 60px;
+}
+.error_con img {
+	width: 100%;
+	margin: auto;
+}
+.clock {
+	margin: auto;
+}
+.contact_form {
+	margin-top: 30px;
+}
+.personal_detail h1 {
+	font-size: 50px;
+}
+.personal_detail {
+	margin-top: 0px;
+}
+.personal_detail .primary-btn {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.personal_img img {
+	margin: auto;
+}
+.courses_con h2 {
+    padding-top: 20px;
+}
+.circle2 {
+    height: 305px;
+    width: 305px;
+}
+.trainer_sec .owl-carousel .owl-item .topimg {
+    width: 80%;
+    margin-left: 33px;
+    margin-top: -5px;
+}
+.trainer_info {
+    height: 130px;
+    bottom: 7px !important;
+    width: 82%;
+    padding: 25px;
+    left: 30px !important;
+}
+.trainer_info1 {
+    height: 140px;
+    bottom: 7px;
+    width: 83%;
+    padding: 25px;
+    left: 24px;
+}
+.slide-content .large_txt p {
+    bottom: 0px;
+}
+.slider_text {
+    bottom: 0px;
+}
+.testimonials_con_box p {
+    padding: 30px;
+}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+.slide-content .large_txt p {
+    bottom: 70px;
+}
+.main-menu .nav li a {
+    padding: 15px 15px;
+}
+.blog_txt h1 {
+	font-size: 50px;
+}
+.blog_txt {
+	margin: 0 auto;
+	padding: 90px 10px 0;
+}
+.content1 {
+	width: 100%;
+}
+.error_con img {
+	width: 80%;
+	margin: auto;
+}
+a.back_to_home {
+	font-size: 16px;
+	padding: 12px 25px;
+}
+.blog_txt h1 {
+	font-size: 40px;
+}
+.blog_txt h3 {
+	margin: 15px 0px;
+	font-size: 18px;
+	line-height: 30px;
+}
+.inner_about_con {
+	padding-top: 40px;
+}
+.inner_about_con h1 {
+	font-size: 34px;
+}
+.inner_about_con p {
+	line-height: 27px;
+}
+.choose_detail h1 {
+	font-size: 34px;
+}
+.plan_number {
+	min-height: 70px;
+}
+.plan_detail h3 {
+	font-size: 20px;
+}
+.progress_box {
+	margin-top: 40px;
+}
+.why_choose {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.testimonials_title h2 {
+	font-size: 34px;
+}
+.blog_txt {
+	padding: 100px 10px 0;
+}
+.breadcrumb_sec .breadcrumb1 {
+	top: 305px;
+}
+.breadcrumb_sec {
+	height: 400px;
+}
+.timetable_sec .project-box:nth-child(even) {
+	border-right: none;
+}
+.timetable_sec .project-box:nth-child(5), .timetable_sec .project-box:nth-child(6) {
+	border-bottom: 1px solid #dcdee6;
+}
+.projects-container .right-line_hide {
+	border-right: 1px solid #dcdee6;
+}
+.main-menu .navbar-header .navbar-toggle {
+	display: block;
+	z-index: 7;
+	border: 1px solid #ee6c0c;
+	margin: 10px 0;
+}
+.main-menu .navbar-header .navbar-toggle .icon-bar {
+	background: #ee6c0c;
+}
+.main-header .container {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.main-menu .collapse {
+	display: none !important;
+	max-height: none;
+	overflow: hidden;
+	padding: 0px;
+	margin: 10px 0px;
+	width: 100%;
+	border-radius: 3px;
+	-ms-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	background: #d0681bbf;
+}
+.main-menu .collapse.in, .main-menu .collapsing {
+	display: block !important;
+	max-height: none;
+	overflow: hidden;
+	padding: 0px;
+	margin: 10px 0px;
+	width: 100%;
+	border-radius: 3px;
+	-ms-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.main-menu .nav li a:hover, .main-menu .nav li.current a {
+	border-bottom: 2px solid #fffefe;
+}
+.main-menu .nav li {
+	padding: 0 30px;
+}
+.main-menu .collapse.animated {
+	animation-duration: 300ms;
+}
+.main-menu .navbar-header .navbar-toggle .icon_bar {
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.main-menu .navbar-header .navbar-toggle .icon_bar {
+	width: 22px;
+	height: 3px;
+	margin-bottom: 3px;
+	background: #000;
+	display: block;
+	padding: 0px;
+	transition: all 0.5s ease;
+}
+.main-menu .navbar-header .navbar-toggle .icon_bar.cross:first-child {
+	-webkit-transform: rotate(-45deg) translate(-4px, 5px);
+	transform: rotate(-45deg) translate(-4px, 5px);
+	opacity: 1;
+}
+.main-menu .navbar-header .navbar-toggle .icon_bar.cross {
+	opacity: 0;
+	color: #000;
+}
+.main-menu .navbar-header .navbar-toggle .icon_bar.cross:last-child {
+	-webkit-transform: rotate(45deg) translate(-2.5px, -5px);
+	transform: rotate(45deg) translate(-2.5px, -5px);
+	opacity: 1;
+}
+.nav-ul {
+	left: -100%;
+	position: absolute;
+	top: 34px;
+	width: 100%;
+	transition: all 0.5s ease;
+	background: #fb5353;
+}
+.nav-ul.active {
+	left: 0px;
+	transition: all 0.5s ease;
+}
+.nav-ul li {
+	float: none;
+	border-bottom: 1px solid #323232;
+}
+.nav-ul li a {
+	display: block;
+	padding: 10px 15px;
+}
+.nav-ul li:hover a {
+	background: #323232;
+	color: #fff;
+}
+.select_day {
+	display: block;
+	border-color: transparent;
+	padding: 8px 25px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.select_day option {
+	width: 50%;
+}
+ .select_day option:hover, .select_day option:focus, .select_day option:focus-within {
+ background: #82b53f;
+}
+.day_tabs {
+	display: none;
+}
+.timetable_sec .select_day {
+	position: relative;
+	margin-bottom: 50px;
+	border-radius: 20px;
+	background: #f3f3f3;
+	width: 70%;
+	margin: 50px auto;
+}
+.timetable_sec .project-box .text-content {
+	padding: 0 0px;
+	margin: 20px 0px;
+}
+.timetable_sec .project-box .text-content img {
+	margin-bottom: 10px;
+}
+.timetable_sec .project-box .text-content h4 {
+	font-size: 14px;
+	margin-top: 10px;
+}
+.timetable_sec .project-box .text-content p {
+	font-size: 13px;
+	margin-top: 10px;
+}
+.video_sec .container-fluid {
+	padding: 30px;
+}
+.home_about_sec {
+	padding: 90px 0 80px;
+}
+.main-footer .footer-widget-area {
+	margin: 0 15px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.main-footer .quick-links {
+	padding-left: 0 !important;
+}
+.sideimg {
+	bottom: 88px;
+}
+.inner-content .large_txt p {
+	font-size: 40px;
+	line-height: 40px;
+	bottom: 80px;
+}
+.slider_text p {
+	text-align: inherit;
+	line-height: 18px;
+	font-size: 12px;
+	text-align: left;
+	line-height: 25px;
+}
+.trainer_sec .owl-carousel .owl-item .topimg2 {
+	width: 100%;
+	top: 20px;
+	left: 0px;
+}
+.trainer_sec .owl-carousel .owl-item .topimg {
+	width: 83%;
+	margin-left: 27px;
+	margin-top: -10px;
+}
+.trainer_info {
+    bottom: 7px;
+    padding: 15px;
+    border-bottom-left-radius: 220px;
+    border-bottom-right-radius: 220px;
+    left: 26px;
+    width: 85%;
+    height: 135px;
+}
+#myOverlay .overlay-content {
+	width: 80%;
+}
+#myOverlay input[type="text"] {
+	width: 70%;
+	font-size: 18px;
+	padding: 20px 2px 5px 2px;
+}
+#myOverlay button {
+	padding: 15px;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+.timetable_sec {
+	padding: 10px 0 50px;
+}
+.home_about_sec img {
+    width: 100%;
+    float: none;
+    margin: auto;
+}
+.aimg_sec {
+    margin-top: 0px;
+}
+.courses_con p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+.course_sec .owl-carousel .owl-item img {
+    width: 91%;
+    filter: grayscale(100%);
+}
+.blog_sec .card p {
+    margin-top: 15px;
+}
+.timetable_sec {
+    padding: 10px 0 60px;
+}
+.home_about_sec {
+	padding: 80px 0 0;
+}
+.course_sec {
+	padding: 40px 0;
+}
+.trainer_sec {
+	padding: 40px 0;
+}
+.blog_sec {
+	padding: 40px 0 0;
+}
+.blog_sec .title {
+	margin-bottom: 20px;
+}
+/*blog*/
+.blog_main_sec .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.main-slider .large_txt p {
+	font-size: 38px;
+	line-height: 55px;
+	text-align: left;
+}
+.blogpage2 .main-menu .collapse.in .nav li.current a, .blogpage2 .main-menu .collapsing .nav li.current a {
+	color: #ffffff;
+}
+.blogpage2 .main-menu .collapse.in .nav li a, .blogpage2 .main-menu .collapsing .nav li a {
+	color: #ffffff;
+}
+.pagination {
+	margin-left: 0;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+.pagination a {
+	font-size: 12px;
+	padding: 1px 10px;
+}
+.blog_detail {
+	padding: 10px 0;
+	padding-bottom: 80px;
+}
+.blog_right {
+	margin-top: 0;
+}
+.articles_blog .art_info {
+	padding: 10px;
+}
+.blog_left {
+	padding-right: 15px;
+}
+.blog_right {
+	padding-left: 15px;
+}
+.blogpage2 .main-menu .collapse {
+	background: #d0681bf7;
+}
+.img_box {
+	display: none;
+}
+.single-banner-slide {
+	height: 430px;
+}
+.banner-slide.owl-carousel.owl-drag .owl-item {
+	height: 430px;
+}
+.banner-slide .owl-dots {
+	right: 10px;
+}
+.phone {
+	display: block;
+}
+.desktop {
+	display: none;
+}
+.home_about_sec .primary-btn {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.course_sec .title {
+	margin-bottom: 30px;
+}
+.course_sec .content-box .text-content .text {
+	width: 118px;
+}
+.owl-theme .owl-dots {
+	margin-top: 0px;
+}
+.projects-container .bottomrow {
+	padding-left: 0px;
+	padding-right: 0;
+}
+.owl-theme .owl-dots {
+	margin-top: 10px;
+}
+.blog_sec .card h4 {
+	margin-top: 0px;
+}
+.home_contact_sec {
+	background-position: right;
+}
+.right_form {
+	margin: 50px auto;
+	margin-top: 115px;
+}
+.home_contact_sec .site-contact-form input, .home_contact_sec .site-contact-form textarea {
+	margin-bottom: 20px;
+}
+.main-footer br {
+	display: none;
+}
+.testimonials_con_box p {
+	padding: 20px 20px 50px 20px;
+}
+section.testimonials_box {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.right_tag {
+	display: none;
+}
+.blog_left .read_social .pull-right {
+	margin-top: 15px;
+}
+.blog_main_sec {
+	padding: 40px 0 0px;
+}
+.page-wrapper .header-fixed .header-lower {
+	z-index: 9999;
+}
+.comeing_con h1 {
+	font-size: 46px;
+}
+.num {
+	font-size: 60px;
+}
+.text {
+	font-size: 22px;
+	margin-top: 10px;
+}
+.subscribe_box {
+	width: 90%;
+	margin-top: 20px;
+}
+.content {
+	right: 0;
+}
+#comeing_soon_icon {
+	margin-top: 10px;
+}
+.clock {
+	width: 100%;
+	height: 125px;
+	;
+}
+.contact_form {
+	margin-top: 30px;
+}
+.personal_detail h1 {
+	font-size: 35px;
+}
+.personal_detail .primary-btn {
+	margin-bottom: 30px;
+}
+.inner_trainer .topimg2 {
+	top: 26px;
+	left: 10px;
+	width: auto;
+	z-index: 7;
+}
+.inner_trainer .topimg {
+	width: 276px;
+}
+.trainer_informaction {
+	width: 330px;
+}
+.comments-field{
+	padding-right:0px;
+	padding-left:0px;
+}
+.circle2 {
+    border: 7px solid #ee6c0c;
+    border-radius: 250px;
+    height: 300px;
+    width: 300px;
+}
+.plan_box {
+    margin-bottom: 30px;
+}
+.classes_img img {
+    width: 100%;
+}	
+}
+@media (min-width: 320px) and (max-width: 480px) {
+.main-menu .nav li a {
+    padding: 15px 15px;
+}
+.content1 {
+	width: 100%;
+}
+.error_con img {
+	width: 80%;
+	margin: auto;
+}
+a.back_to_home {
+	font-size: 16px;
+	padding: 12px 25px;
+}
+.blog_txt h1 {
+	font-size: 40px;
+}
+.blog_txt h3 {
+	margin: 15px 0px;
+	font-size: 18px;
+	line-height: 30px;
+}
+.inner_about_con {
+	padding-top: 40px;
+}
+.inner_about_con h1 {
+	font-size: 34px;
+}
+.inner_about_con p {
+	line-height: 27px;
+}
+.choose_detail h1 {
+	font-size: 34px;
+}
+.plan_number {
+	min-height: 120px;
+}
+.plan_detail h3 {
+	font-size: 20px;
+}
+.progress_box {
+	margin-top: 40px;
+}
+.why_choose {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.testimonials_title h2 {
+	font-size: 34px;
+}
+.blog_txt {
+	padding: 100px 10px 0;
+}
+.breadcrumb_sec .breadcrumb1 {
+	top: 305px;
+}
+.breadcrumb_sec {
+	height: 400px;
+}
+.timetable_sec .project-box:nth-child(even) {
+	border-right: none;
+}
+.timetable_sec .project-box:nth-child(5), .timetable_sec .project-box:nth-child(6) {
+	border-bottom: 1px solid #dcdee6;
+}
+.projects-container .right-line_hide {
+	border-right: 1px solid #dcdee6;
+}
+.main-menu .navbar-header .navbar-toggle {
+	display: block;
+	z-index: 7;
+	border: 1px solid #ee6c0c;
+	margin: 10px 0;
+}
+.main-menu .navbar-header .navbar-toggle .icon-bar {
+	background: #ee6c0c;
+}
+.main-header .container {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.main-menu .collapse {
+	display: none !important;
+	max-height: none;
+	overflow: hidden;
+	padding: 0px;
+	margin: 10px 0px;
+	width: 100%;
+	border-radius: 3px;
+	-ms-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	background: #d0681bbf;
+}
+.main-menu .collapse.in, .main-menu .collapsing {
+	display: block !important;
+	max-height: none;
+	overflow: hidden;
+	padding: 0px;
+	margin: 10px 0px;
+	width: 100%;
+	border-radius: 3px;
+	-ms-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+.main-menu .nav li a:hover, .main-menu .nav li.current a {
+	border-bottom: 2px solid #fffefe;
+}
+.main-menu .nav li {
+	padding: 0 30px;
+}
+.main-menu .collapse.animated {
+	animation-duration: 300ms;
+}
+.main-menu .navbar-header .navbar-toggle .icon_bar {
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.main-menu .navbar-header .navbar-toggle .icon_bar {
+	width: 22px;
+	height: 3px;
+	margin-bottom: 3px;
+	background: #000;
+	display: block;
+	padding: 0px;
+	transition: all 0.5s ease;
+}
+.main-menu .navbar-header .navbar-toggle .icon_bar.cross:first-child {
+	-webkit-transform: rotate(-45deg) translate(-4px, 5px);
+	transform: rotate(-45deg) translate(-4px, 5px);
+	opacity: 1;
+}
+.main-menu .navbar-header .navbar-toggle .icon_bar.cross {
+	opacity: 0;
+	color: #000;
+}
+.main-menu .navbar-header .navbar-toggle .icon_bar.cross:last-child {
+	-webkit-transform: rotate(45deg) translate(-2.5px, -5px);
+	transform: rotate(45deg) translate(-2.5px, -5px);
+	opacity: 1;
+}
+.nav-ul {
+	left: -100%;
+	position: absolute;
+	top: 34px;
+	width: 100%;
+	transition: all 0.5s ease;
+	background: #fb5353;
+}
+.nav-ul.active {
+	left: 0px;
+	transition: all 0.5s ease;
+}
+.nav-ul li {
+	float: none;
+	border-bottom: 1px solid #323232;
+}
+.nav-ul li a {
+	display: block;
+	padding: 10px 15px;
+}
+.nav-ul li:hover a {
+	background: #323232;
+	color: #fff;
+}
+.select_day {
+	display: block;
+	border-color: transparent;
+	padding: 8px 25px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.select_day option {
+	width: 50%;
+}
+ .select_day option:hover, .select_day option:focus, .select_day option:focus-within {
+ background: #82b53f;
+}
+.day_tabs {
+	display: none;
+}
+.timetable_sec .select_day {
+	position: relative;
+	margin-bottom: 50px;
+	border-radius: 20px;
+	background: #f3f3f3;
+	width: 70%;
+	margin: 50px auto;
+}
+.timetable_sec .project-box .text-content {
+	padding: 0 0px;
+	margin: 20px 0px;
+}
+.timetable_sec .project-box .text-content img {
+	margin-bottom: 10px;
+}
+.timetable_sec .project-box .text-content h4 {
+	font-size: 14px;
+	margin-top: 10px;
+}
+.timetable_sec .project-box .text-content p {
+	font-size: 13px;
+	margin-top: 10px;
+}
+.video_sec .container-fluid {
+	padding: 30px;
+}
+.home_about_sec {
+	padding: 90px 0 80px;
+}
+.main-footer .footer-widget-area {
+	margin: 0 15px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.main-footer .quick-links {
+	padding-left: 0 !important;
+}
+.sideimg {
+	bottom: 88px;
+}
+.inner-content .large_txt p {
+	font-size: 40px;
+	line-height: 40px;
+	bottom: 80px;
+}
+.slider_text p {
+	text-align: inherit;
+	line-height: 18px;
+	font-size: 12px;
+	text-align: left;
+	line-height: 25px;
+}
+.trainer_sec .owl-carousel .owl-item .topimg2 {
+	width: 100%;
+	top: 20px;
+	left: 0px;
+}
+.trainer_sec .owl-carousel .owl-item .topimg {
+	width: 83%;
+	margin-left: 27px;
+	margin-top: -10px;
+}
+.trainer_info {
+	bottom: 17px;
+	padding: 15px;
+	border-bottom-left-radius: 220px;
+	border-bottom-right-radius: 220px;
+	left: 22px;
+}
+#myOverlay .overlay-content {
+	width: 80%;
+}
+#myOverlay input[type="text"] {
+	width: 70%;
+	font-size: 18px;
+	padding: 20px 2px 5px 2px;
+}
+#myOverlay button {
+	padding: 15px;
+	font-size: 20px;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+.timetable_sec {
+    padding: 10px 0 60px;
+}
+.home_about_sec {
+	padding: 80px 0 0;
+}
+.course_sec {
+	padding: 40px 0;
+}
+.trainer_sec {
+	padding: 40px 0;
+}
+.blog_sec {
+	padding: 40px 0 0;
+}
+.blog_sec .title {
+	margin-bottom: 20px;
+}
+/*blog*/
+.blog_main_sec .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.main-slider .large_txt p {
+	font-size: 38px;
+	line-height: 55px;
+	text-align: left;
+}
+.blogpage2 .main-menu .collapse.in .nav li.current a, .blogpage2 .main-menu .collapsing .nav li.current a {
+	color: #ffffff;
+}
+.blogpage2 .main-menu .collapse.in .nav li a, .blogpage2 .main-menu .collapsing .nav li a {
+	color: #ffffff;
+}
+.pagination {
+	margin-left: 0;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+.pagination a {
+	font-size: 12px;
+	padding: 1px 10px;
+}
+.blog_detail {
+	padding: 10px 0;
+	padding-bottom: 80px;
+}
+.blog_right {
+	margin-top: 0;
+}
+.articles_blog .art_info {
+	padding: 0px;
+}
+.blog_left {
+	padding-right: 15px;
+}
+.blog_right {
+	padding-left: 15px;
+}
+.blogpage2 .main-menu .collapse {
+	background: #d0681bf7;
+}
+.img_box {
+	display: none;
+}
+.single-banner-slide {
+	height: 600px;
+}
+.banner-slide.owl-carousel.owl-drag .owl-item {
+	height: 600px;
+}
+.slide-content {
+    top: 35%;
+}
+.banner-slide .owl-dots {
+	right: 10px;
+}
+.phone {
+	display: block;
+}
+.desktop {
+	display: none;
+}
+.home_about_sec .primary-btn {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.course_sec .title {
+	margin-bottom: 30px;
+}
+.course_sec .content-box .text-content .text {
+	width: 118px;
+}
+.owl-theme .owl-dots {
+	margin-top: 0px;
+}
+.projects-container .bottomrow {
+	padding-left: 0px;
+	padding-right: 0;
+}
+.owl-theme .owl-dots {
+	margin-top: 10px;
+}
+.blog_sec .card h4 {
+	margin-top: 0px;
+}
+.home_contact_sec {
+	background-position: right;
+}
+.right_form {
+	margin: 50px auto;
+	margin-top: 115px;
+}
+.home_contact_sec .site-contact-form input, .home_contact_sec .site-contact-form textarea {
+	margin-bottom: 20px;
+}
+.main-footer br {
+	display: none;
+}
+.testimonials_con_box p {
+	padding: 20px 20px 50px 20px;
+}
+section.testimonials_box {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.right_tag {
+	display: none;
+}
+.blog_left .read_social .pull-right {
+	margin-top: 15px;
+}
+.blog_main_sec {
+	padding: 40px 0 0px;
+}
+.page-wrapper .header-fixed .header-lower {
+	z-index: 9999;
+}
+.comeing_con h1 {
+	font-size: 46px;
+}
+.num {
+	font-size: 60px;
+}
+.text {
+	font-size: 22px;
+	margin-top: 10px;
+}
+.subscribe_box {
+	width: 90%;
+	margin-top: 20px;
+}
+.content {
+	right: 0;
+}
+#comeing_soon_icon {
+	margin-top: 10px;
+}
+.clock {
+	width: 100%;
+	height: 125px;
+}
+.contact_form {
+	margin-top: 30px;
+}
+.personal_detail h1 {
+	font-size: 30px;
+}
+.personal_detail .primary-btn {
+	margin-bottom: 30px;
+}
+.inner_trainer .topimg2 {
+	top: 26px;
+	left: 10px;
+	width: auto;
+	z-index: 7;
+}
+.inner_trainer .topimg {
+	width: 276px;
+}
+.trainer_informaction {
+	width: 330px;
+}
+.courses_box {
+    min-height: 196px;
+}
+.courses_img {
+    width: 50%;
+}
+.courses_con h2 {
+    padding-top: 15px;
+}
+.courses_con p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    line-height: 22px;
+}
+a.read_coursr {
+    padding-bottom: 0px;
+}
+.circle2 {
+    border: 7px solid #ee6c0c;
+    border-radius: 250px;
+    height: 270px;
+    width: 270px;
+    margin: auto;
+}
+.trainer_info {
+    height: 120px;
+    bottom: 7px !important;
+    width: 247px;
+    padding: 25px;
+    left: 27px !important;
+}
+.trainer_info1 {
+    height: 130px;
+    bottom: 6px;
+    width: 255px;
+    padding: 25px;
+    left: 24px;
+}
+.blog-post .blog-info-post-top .ltx-user {
+    margin-top: 10px !important;
+}
+.blog-info .ltx-user {
+    float: none;
+	margin-left: 0px !important;
+}
+.blog-post .blog-info-post-bottom .tags-line .tags-line-left {
+    width: 100%;
+}
+.blog-post .blog-info-post-bottom .tags-line .cats-many .header {
+    font-size: 15px;
+}
+.blog-post .blog-info-post-bottom .tags-line .cats-many {
+    margin-top: 10px;
+}
+.blog-post .blog-info-post-bottom .tags-line .tags-line-right {
+    width: 100%;
+}
+ul.ltx-sharing {
+    float: left;
+}
+.comments-form form {
+    padding: 40px 20px !important;
+}
+.comments-field{
+	padding-right:0px;
+	padding-left:0px;
+}
+.blog-post p {
+    font-size: 14px;
+}
+.comments-area {
+    margin-top: 30px;
+}
+.articles_blog .art_info h4 {
+    font-size: 15px;
+}
+}
+@media (min-width: 376px) and (max-width: 480px){
+.courses_box {
+    min-height: 232px;
+}	
+.courses_con p {
+    font-size: 14px;
+    line-height: 27px;
+}
+.courses_con h2 {
+    padding-top: 35px;
+}
+.trainer_info {
+    height: 120px;
+    bottom: 7px !important;
+    width: 210px;
+    padding: 25px;
+    left: 24px !important;
+}
+.trainer_info {
+    height: 120px;
+    bottom: 7px !important;
+    width: 247px;
+    padding: 25px;
+    left: 54px !important;
+}
+.trainer_info1 {
+    height: 130px;
+    bottom: 6px;
+    width: 255px;
+    padding: 25px;
+    left: 49px;
+}
+}
+@media (min-width: 361px) and (max-width: 375px){
+	.courses_box {
+    min-height: 206px;
+}
+.circle2 {
+    height: 285px;
+    width: 285px;
+}
+.trainer_info {
+    height: 130px;
+    bottom: 7px !important;
+    width: 265px;
+    padding: 25px;
+    left: 25px !important;
+}
+}
+
