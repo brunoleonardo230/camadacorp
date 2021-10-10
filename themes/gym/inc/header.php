@@ -17,8 +17,8 @@
             <div class="top-right pull-right clearfix">
                 <div class="social">
                     <span class="txt"> REDES SOCIAIS </span>
-                    <a class="circlef" title="<?= SITE_NAME; ?> No Facebook" href="//www.facebook.com/<?= SITE_SOCIAL_FB_PAGE; ?>" target="_blank">
-                        <i class="fa fa-facebook-f"></i>
+                    <!-- <a class="circlef" title="<?= SITE_NAME; ?> No Facebook" href="//www.facebook.com/<?= SITE_SOCIAL_FB_PAGE; ?>" target="_blank">
+                        <i class="fa fa-facebook-f"></i> -->
                     </a>
                     <a class="circlei" title="<?= SITE_NAME; ?> No Instagram" href="//www.instagram.com/<?= SITE_SOCIAL_INSTAGRAM; ?>" target="_blank">
                         <i class="fa fa-instagram"></i>
@@ -31,7 +31,7 @@
         <div class="container clearfix">
             <div class="logo pull-left">
                 <a href="<?= BASE; ?>" title="<?= SITE_NAME; ?>">
-                    <h2 class="logo_name">GYM <span class="white_text">FIT </span></h2>
+                    <h2 class="logo_name">CAMADA <span class="white_text">CORP </span></h2>
                 </a>
             </div>
             <div class="right-cont clearfix">

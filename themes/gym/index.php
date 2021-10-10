@@ -159,7 +159,7 @@
 <!-- Video End -->
 
 <!-- Timetable Start-->
-<section class="timetable_sec" id="timetable">
+<!-- <section class="timetable_sec" id="timetable">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-xs-12 col-md-12 timetable_sec1">
@@ -951,7 +951,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Timetable End -->
 
 <!-- Gallery Start -->
