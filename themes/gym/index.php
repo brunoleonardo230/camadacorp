@@ -16,7 +16,7 @@
             <div class="item slides active">
                 <div class="slide-1"></div>
                 <div class="hero">
-                    <h2 class="sec-title title"><span><?= SITE_NAME; ?></span> Centro de Treinamento</h2>
+                    <h2 class="sec-title title"><span><?= SITE_NAME; ?></span> Agencia de Consultoria</h2>
                     <p>Oferecemos Equipamentos Moderos, Esteiras, Estúdio de Boxe, TRX e Spinning.</p>
                     <a href="<?= BASE; ?>/contato" class="btn btn-hero btn-lg" role="button" title="Contato">Contato</a>
                 </div>
@@ -24,7 +24,7 @@
             <div class="item slides">
                 <div class="slide-2"></div>
                 <div class="hero">
-                    <h2 class="sec-title title"><span><?= SITE_NAME; ?></span> Centro de Treinamento</h2>
+                    <h2 class="sec-title title"><span><?= SITE_NAME; ?></span> Agencia de Consultoria</h2>
                     <p>Oferecemos Equipamentos Moderos, Esteiras, Estúdio de Boxe, TRX e Spinning.</p>
                     <a href="<?= BASE; ?>/contato" class="btn btn-hero btn-lg" role="button" title="Contato">Contato</a>
                 </div>
@@ -32,7 +32,7 @@
             <div class="item slides">
                 <div class="slide-3"></div>
                 <div class="hero">
-                    <h2 class="sec-title title"><span><?= SITE_NAME; ?></span> Centro de Treinamento</h2>
+                    <h2 class="sec-title title"><span><?= SITE_NAME; ?></span> Agencia de Consultoria</h2>
                     <p>Oferecemos Equipamentos Moderos, Esteiras, Estúdio de Boxe, TRX e Spinning.</p>
                     <a href="<?= BASE; ?>/contato" class="btn btn-hero btn-lg" role="button" title="Contato">Contato</a>
                 </div>
@@ -43,6 +43,24 @@
     </div>
 </section>
 <!-- Carousel End -->
+
+<!-- Gallery Start -->
+<div itemscope itemtype="http://schema.org/ImageGallery" class="gallery">
+    <div class="footer-gallery owl-carousel owl-theme ss_carousel" id="slider2">
+        <?php
+        $Read->ExeRead(DB_GALLERY_IMAGES, "ORDER BY gallery_id ASC LIMIT :limit", "limit=24");
+        if (!$Read->getResult()):
+            echo Erro("Ainda Não Existe Imagens Cadastradas! :)", E_USER_NOTICE);
+        else:
+            foreach ($Read->getResult() as $GalleryImages):
+                extract($GalleryImages);
+                require REQUIRE_PATH . '/inc/gallery_item.php';
+            endforeach;
+        endif;
+        ?>
+    </div>
+</div>
+<!-- Gallery End -->
 
 <!-- About Start-->
 <section class="about_sec" id="aboutus">
@@ -60,13 +78,9 @@
             </div>
             <div class="abt_right col-lg-6 col-sm-7 col-md-8 col-xs-12">
                 <div class="row">
-                    <h2 class="title"><span>Sobre</span> <?= SITE_NAME; ?></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestib ulum porttitor egestas orci,
-                        vitae ullamcorper risus consectetur id. Donec at velit vestibulum, rutrum massa quis, porttitor
-                        lorem. Donec et ultricies arcu. In odio augue, hendrerit nec nisl ac, rhoncus gravida
-                        mauris. </p>
-                    <p>Quisque consectetur ligula eu urna dignissim, nec mollis ipsum aliquam. Aliquam non est a ipsum
-                        facilisis scelerisque eu sed lectus. </p>
+                    <h2 class="title"><span>Quem somos</span> <?= SITE_NAME; ?></h2>
+                    <p>A Corporação Camada é uma agência de consultoria voltada para o desempenho e alta performance através da musculação, crossfit e dieta nutricional, construindo um melhor estilo de vida para você.</p>
+                    <p>Trabalhamos com: Avaliação Física com bioimpedância, Nutrição Esportiva, Prescrição de Treino e Recursos Ergogênicos.</p>                    
                     <a href="<?= BASE; ?>/sobre" class="primary-btn" title="Saber Mais"> Saber Mais</a>
                 </div>
             </div>
@@ -75,6 +89,25 @@
     </div>
 </section>
 <!-- About End-->
+
+<!-- Video Start -->
+<section class="video_sec">
+    <div class="container-fluid">
+        <div class="row">
+            <a href="https://www.youtube.com/c/CamadaEvolu%C3%A7%C3%A3o" data-width="550" data-height="350" class="video-link">
+                <img src="<?= INCLUDE_PATH; ?>/assets/images/play.png" class="img-responsive" alt="">
+            </a>
+            <h2>Conheça nosso canal no YouTube</h2>
+            <a href="https://www.youtube.com/c/CamadaEvolu%C3%A7%C3%A3o" data-width="550" data-height="350"
+               class="video-link primary-btn"> Ver Vídeo
+            </a>
+        </div>
+    </div>
+</section>
+<!-- Video End -->
+
+
+
 
 <!-- Course Start-->
 <section class="course_sec" id="course">
@@ -85,8 +118,8 @@
                     <img class="img-responsive" src="<?= INCLUDE_PATH; ?>/assets/images/title-bg.png" alt="">
                 </div>
                 <div class="course_sec_title">
-                    <h2>Nossas Aulas</h2>
-                    <p>Nosso Objetivo é Transformar Seu Corpo</p>
+                    <h2>Nossos Resultados</h2>
+                    <!-- <p>Nosso Objetivo é Transformar Seu Corpo</p> -->
                 </div>
             </div>
         </div>
@@ -108,7 +141,7 @@
 <!-- Course End -->
 
 <!-- Trainers Start -->
-<section class="Trainer_sec" id="Trainer">
+<!-- <section class="Trainer_sec" id="Trainer">
     <div class="container">
         <div class="row">
             <div class="col-md-6"></div>
@@ -139,24 +172,8 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Trainers End -->
-
-<!-- Video Start -->
-<section class="video_sec">
-    <div class="container-fluid">
-        <div class="row">
-            <a href="https://www.youtube.com/embed/AulGwjIv3m8" data-width="550" data-height="350" class="video-link">
-                <img src="<?= INCLUDE_PATH; ?>/assets/images/play.png" class="img-responsive" alt="">
-            </a>
-            <h2>Explore Nossa Academia</h2>
-            <a href="https://www.youtube.com/embed/AulGwjIv3m8" data-width="550" data-height="350"
-               class="video-link primary-btn"> Ver Vídeo
-            </a>
-        </div>
-    </div>
-</section>
-<!-- Video End -->
 
 <!-- Timetable Start-->
 <!-- <section class="timetable_sec" id="timetable">
@@ -954,26 +971,9 @@
 </section> -->
 <!-- Timetable End -->
 
-<!-- Gallery Start -->
-<div itemscope itemtype="http://schema.org/ImageGallery" class="gallery">
-    <div class="footer-gallery owl-carousel owl-theme ss_carousel" id="slider2">
-        <?php
-        $Read->ExeRead(DB_GALLERY_IMAGES, "ORDER BY gallery_id ASC LIMIT :limit", "limit=24");
-        if (!$Read->getResult()):
-            echo Erro("Ainda Não Existe Imagens Cadastradas! :)", E_USER_NOTICE);
-        else:
-            foreach ($Read->getResult() as $GalleryImages):
-                extract($GalleryImages);
-                require REQUIRE_PATH . '/inc/gallery_item.php';
-            endforeach;
-        endif;
-        ?>
-    </div>
-</div>
-<!-- Gallery End -->
 
 <!-- Blog Start -->
-<section itemscope itemtype="http://schema.org/Blog" id="blog" class="blog_sec1">
+<!-- <section itemscope itemtype="http://schema.org/Blog" id="blog" class="blog_sec1">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -1000,7 +1000,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Blog End -->
 
 <!-- Contact End -->

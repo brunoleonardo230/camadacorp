@@ -32,12 +32,10 @@
                 <div class="row">
                     <div class="about_inner_page_con">
                         <h2 class="title"><span>Sobre </span> <?= SITE_NAME; ?></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestib ulum porttitor egestas orci,
-                            vitae ullamcorper risus consectetur id. Donec at velit vestibulum, rutrum massa quis,
-                            porttitor lorem. Donec et ultricies arcu. In odio augue, hendrerit nec nisl ac, rhoncus
-                            gravida mauris. </p>
-                        <p>Quisque consectetur ligula eu urna dignissim, nec mollis ipsum aliquam. Aliquam non est a
-                            ipsum facilisis scelerisque eu sed lectus. </p>
+                        <p>Temos profissionais especialistas em Educação Física e Nutrição, treinados e concentrados para organizar sua rotina e potencializar seus resultados com treino e dieta.</p>
+                        <p>Trabalhamos com todos os tipos de condicionamento físico para todas as idades: obesos, magros, fisiculturistas, lutadores, vida saudável, etc...</p>
+                        <p>Uma dieta esportiva é uma parte importante para o seu desempenho atlético. Um plano nutricional deve ser tão individual quanto seu treinamento, pois depende de seus objetivos, condição física e esporte.</p>
+
                         <a href="<?= BASE; ?>/contato" class="primary-btn about_btn" title="Contato"> Contato</a></div>
                 </div>
             </div>

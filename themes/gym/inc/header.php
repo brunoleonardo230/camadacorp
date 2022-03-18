@@ -48,10 +48,10 @@
                         <ul class="nav navbar-nav navbar-right  ml-auto" id="onenav">
                             <li class="nav-link <?= ($URL[0] == 'index' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>" title="<?= SITE_NAME; ?>" class="js-scroll-trigger"><span itemprop="name">Home</span></a></li>
                             <li class="nav-link <?= ($URL[0] == 'sobre' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>/sobre" title="Sobre" class="js-scroll-trigger"><span itemprop="name">Sobre</span></a></li>
-                            <li class="nav-link <?= ($URL[0] == 'aulas' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>/aulas" title="Aulas" class="js-scroll-trigger"><span itemprop="name">Aulas</span></a></li>
+                            <!-- <li class="nav-link <?= ($URL[0] == 'aulas' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>/aulas" title="Aulas" class="js-scroll-trigger"><span itemprop="name">Aulas</span></a></li>
                             <li class="nav-link <?= ($URL[0] == 'horarios' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>/horarios" title="Horários" class="js-scroll-trigger"><span itemprop="name">Horários</span></a></li>
                             <li class="nav-link <?= ($URL[0] == 'treinadores' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>/treinadores" title="Treinadores" class="js-scroll-trigger"><span itemprop="name">Treinadores</span></a></li>
-                            <li class="nav-link <?= ($URL[0] == 'artigos' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>/artigos" title="Blog" class="js-scroll-trigger"><span itemprop="name">Blog</span></a></li>
+                            <li class="nav-link <?= ($URL[0] == 'artigos' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>/artigos" title="Blog" class="js-scroll-trigger"><span itemprop="name">Blog</span></a></li> -->
                             <li class="nav-link <?= ($URL[0] == 'contato' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>/contato" title="Contato" class="js-scroll-trigger"><span itemprop="name">Contato</span></a></li>
                             <li class="social_nav">
                                 <div class="social">
