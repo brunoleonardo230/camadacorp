@@ -17,7 +17,7 @@
                 <div class="slide-1"></div>
                 <div class="hero">
                     <h2 class="sec-title title"><span><?= SITE_NAME; ?></span> Agencia de Consultoria</h2>
-                    <!-- <p>Oferecemos Equipamentos Moderos, Esteiras, Estúdio de Boxe, TRX e Spinning.</p> -->
+                    <p>Avaliação Física com bioimpedância.</p>
                     <a href="<?= BASE; ?>/contato" class="btn btn-hero btn-lg" role="button" title="Contato">Contato</a>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                 <div class="slide-2"></div>
                 <div class="hero">
                     <h2 class="sec-title title"><span><?= SITE_NAME; ?></span> Agencia de Consultoria</h2>
-                    <!-- <p>Oferecemos Equipamentos Moderos, Esteiras, Estúdio de Boxe, TRX e Spinning.</p> -->
+                    <p>Nutrição Esportiva.</p>
                     <a href="<?= BASE; ?>/contato" class="btn btn-hero btn-lg" role="button" title="Contato">Contato</a>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                 <div class="slide-3"></div>
                 <div class="hero">
                     <h2 class="sec-title title"><span><?= SITE_NAME; ?></span> Agencia de Consultoria</h2>
-                    <!-- <p>Oferecemos Equipamentos Moderos, Esteiras, Estúdio de Boxe, TRX e Spinning.</p> -->
+                    <p>Prescrição de Treino e Recursos Ergogênicos.</p>
                     <a href="<?= BASE; ?>/contato" class="btn btn-hero btn-lg" role="button" title="Contato">Contato</a>
                 </div>
             </div>
