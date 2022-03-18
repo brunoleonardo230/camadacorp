@@ -6,9 +6,9 @@
                      alt="<?= $class_title; ?>" class="img-responsive">
                 <a href="<?= BASE; ?>/contato" class="course_read" title="Saber Mais">Saber Mais</a>
             </div>
-            <div class="course_con1">
+            <!-- <div class="course_con1">
                 <h3><?= $class_title; ?></h3>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
