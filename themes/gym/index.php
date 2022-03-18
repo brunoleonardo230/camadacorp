@@ -94,11 +94,11 @@
 <section class="video_sec">
     <div class="container-fluid">
         <div class="row">
-            <a href="https://www.youtube.com/watch?v=R7h9_9vU8Js" data-width="550" data-height="350" class="video-link">
+            <a href="https://www.youtube.com/embed/R7h9_9vU8Js" data-width="550" data-height="350" class="video-link">
                 <img src="<?= INCLUDE_PATH; ?>/assets/images/play.png" class="img-responsive" alt="">
             </a>
             <h2>Conheça nosso canal no YouTube</h2>
-            <a href="https://www.youtube.com/watch?v=R7h9_9vU8Js" data-width="550" data-height="350"
+            <a href="https://www.youtube.com/embed/R7h9_9vU8Js" data-width="550" data-height="350"
                class="video-link primary-btn"> Ver Vídeo 
             </a>
         </div>
