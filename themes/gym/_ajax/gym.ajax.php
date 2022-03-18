@@ -85,7 +85,8 @@ switch ($Action):
                 "schedule_email" => $POST['email'],
                 "schedule_telephone" => $POST['phone'],               
                 "schedule_message" => $POST['message'],
-                "schedule_status" => 1
+                "schedule_status" => 1,
+                "date" => date('Y-m-d H:h:i')
             ];
             
             $Create->ExeCreate(DB_SCHEDULES, $CreateSchedule);
