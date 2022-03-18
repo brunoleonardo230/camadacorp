@@ -56,8 +56,7 @@ endif;
                     <div class="marketing__data">
                         <p>Nome</p>
                         <p>E-mail</p>
-                        <p>Telefone</p>
-                        <p>Classe</p>
+                        <p>Telefone</p>                    
                         <p>Data</p>
                         <p>Ações</p>
                     </div>
@@ -76,7 +75,7 @@ endif;
                     . "s.time, "
                     . "c.class_title "
                     . "FROM " . DB_SCHEDULES . " s "
-                    . "INNER JOIN " . DB_CLASSES . " c ON c.class_id = s.schedule_classe "
+                    . "LEFT JOIN " . DB_CLASSES . " c ON c.class_id = s.schedule_classe "
                     . "ORDER BY date DESC, class_title ASC LIMIT :limit OFFSET :offset", "limit=10&offset=0"
                     );
                     if (!$Read->getResult()):
@@ -85,7 +84,7 @@ endif;
                         foreach ($Read->getResult() as $Schedules):
                             extract($Schedules);
         
-                            echo "<article class='marketing__table js-marketing-table js-rel-to' id='{$schedule_id}'> <div class='marketing__data'> <p>" . Check::Chars($schedule_name, 25) . "</p> <p class='icon-envelop'>" . Check::Chars($schedule_email, 25) . "</p> <p class='icon-phone'>{$schedule_telephone}</p> <p>{$service_title}</p> <p class='icon-calendar'>" . date('d/m/Y', strtotime($date)) . "</p> <p> <a title='Responder' class='btn_header btn_darkgreen icon-pencil icon-notext' href='dashboard.php?wc=agendamentos/view&id={$schedule_id}'></a> <span title='Excluir' class='j_delete_action icon-bin icon-notext btn_header btn_red' callback='Schedules' callback_action='delete' id='{$schedule_id}'></span> </p> </div> </article>";
+                            echo "<article class='marketing__table js-marketing-table js-rel-to' id='{$schedule_id}'> <div class='marketing__data'> <p>" . Check::Chars($schedule_name, 25) . "</p> <p class='icon-envelop'>{$schedule_email}</p> <p class='icon-phone'>{$schedule_telephone}</p> <p class='icon-calendar'>" . date('d/m/Y', strtotime($date)) . "</p> <p> <a title='Responder' class='btn_header btn_darkgreen icon-pencil icon-notext' href='dashboard.php?wc=agendamentos/view&id={$schedule_id}'></a> <span title='Excluir' class='j_delete_action icon-bin icon-notext btn_header btn_red' callback='Schedules' callback_action='delete' id='{$schedule_id}'></span> </p> </div> </article>";
                         endforeach;
                     endif;
                     ?>

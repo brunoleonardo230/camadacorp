@@ -79,6 +79,17 @@ switch ($Action):
             $Email->EnviarMontando("Solicitação de Contato", $CopyMensage, $POST['name'], $POST['email'], SITE_ADDR_NAME, SITE_ADDR_EMAIL);
 
             $jSON['wc_send_mail'] = $POST['name'];
+
+            $CreateSchedule = [
+                "schedule_name" => $POST['name'],
+                "schedule_email" => $POST['email'],
+                "schedule_telephone" => $POST['phone'],               
+                "schedule_message" => $POST['message'],
+                "schedule_status" => 1
+            ];
+            
+            $Create->ExeCreate(DB_SCHEDULES, $CreateSchedule);
+
         endif;
         break;
 
