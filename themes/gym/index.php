@@ -1022,7 +1022,7 @@
             <p>
                 <textarea name="message" placeholder="Mensagem"></textarea>
             </p>
-            <input type="submit"  name="submit" class="send_mes" value="Enviar" title="Enviar">
+            <input type="submit"  name="submit" class="send_mes" id="bt_enviar" value="Enviar" title="Enviar">
         </form>
         <div style="display: none;" class="wc_contact_sended_white jwc_contact_sended">
             <p class="h2"><span>&#10003;</span> Solicitação Enviada Com Sucesso!</p>

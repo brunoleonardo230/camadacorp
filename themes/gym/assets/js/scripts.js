@@ -5,6 +5,7 @@ $(function () {
     var url = BASE + '/themes/gym/_ajax/gym.ajax.php';
 
     //Contato Form
+
     $('.jwc_contact_close').click(function () {
         $('.jwc_contact_sended').fadeOut(200);
         $('.contato-form').fadeIn(400, function () {
@@ -16,11 +17,14 @@ $(function () {
     /* Enviar Contato */
     $('html').on('submit', 'form[name="contact_form"]', function (e) {
         e.preventDefault();
-        e.stopPropagation();
+        e.stopPropagation();        
 
         var form = $(this);
         var data = form.serialize() + '&action=contact_form';
 
+        $("#bt_enviar").attr("value","Enviando...");  
+
+        $('#bt_enviar').attr("disabled", true);
         $.post(url, data, function (data) {
             if (data.wc_contact_error) {
                 $('.jwc_contact_error').html(data.wc_contact_error).fadeIn();
@@ -33,6 +37,8 @@ $(function () {
                 $('.contato-form').fadeOut(400, function () {
                     $('.jwc_contact_sended').fadeIn(400);
                 });
+                $('#bt_enviar').attr("disabled", false);
+                $("#bt_enviar").attr("value","Enviar");
             }
         }, 'json');
     });

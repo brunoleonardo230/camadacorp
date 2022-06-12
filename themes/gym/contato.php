@@ -75,7 +75,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="about_inner_page_con title_box">
-                    <h2 class="title"><span>Contato</span>Fale Conosco</h2>
+                    <h2 class="title"><span>Contatoxx</span>Fale Conosco</h2>
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="col-md-12">
                     <div class="submit_btn_box">
-                        <input type="submit"class="submit_btn hvr-shutter-out-horizontal" value="Enviar" title="Enviar">
+                        <input type="submit"class="submit_btn hvr-shutter-out-horizontal" id='bt_enviar' value="Enviar" title="Enviar">
                     </div>
                 </div>
             </form>
