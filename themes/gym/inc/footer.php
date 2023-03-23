@@ -36,7 +36,7 @@
 
             <div class="slide-bottom copyright-text">
                 <p>Copyright ® <?= date('Y'); ?> - Todos os Direitos Reservados - <a class="copyright-link" href="<?= BASE; ?>" title="<?= SITE_NAME; ?>"><?= SITE_NAME; ?></a><br>
-                    Desenvolvido Com <i class="icon-heart copyright-heart"></i>Por <a class="copyright-link" href="https://www.gbtechweb.com.br" title="GbTechWeb" target="_blank">GbTechWeb</a></p>
+                    Desenvolvido Com <i class="icon-heart copyright-heart"></i>Por <a class="copyright-link" href="https://www.heavenweb.com.br" title="heavenweb" target="_blank">HeavenWeb</a></p>
             </div>
         </div>
     </div>
