@@ -4,8 +4,8 @@
         <div class="container clearfix">
             <div class="top-left pull-left clearfix">
                 <div class="phone pull-left">
-                    <a href="tel:<?= SITE_ADDR_PHONE_A; ?>">
-                        <i class="fa fa-volume-control-phone" aria-hidden="true" style="margin-right: 5px;"></i> <?= SITE_ADDR_PHONE_A; ?>
+                    <a href="https://wa.me/13155104263?text=Quero+fazer+uma+consultoria+esportiva.+" target="_blank">
+                        <i class="fa fa-volume-control-phone" aria-hidden="true" style="margin-right: 5px;"></i> Whatsapp
                     </a>
                 </div>
                 <div class="email pull-left">

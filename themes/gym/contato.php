@@ -44,7 +44,7 @@
                     </div>
                     <div class="location_address">
                         <p>
-                            <a href="tel:<?= SITE_ADDR_PHONE_A; ?>"><?= SITE_ADDR_PHONE_A; ?></a><br>
+                        <a href="https://wa.me/13155104263?text=Quero+fazer+uma+consultoria+esportiva.+" target="_blank">Whatsapp</a>
                             <a href="mailto:<?= SITE_ADDR_EMAIL; ?>"><?= SITE_ADDR_EMAIL; ?></a>
                         </p>
                     </div>
