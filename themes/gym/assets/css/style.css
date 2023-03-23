@@ -680,19 +680,22 @@ Carousel
 /********************************/
 /*       Slides backgrounds     */
 /********************************/
-.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3 {
+.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3, .fade-carousel .slides .slide-4 {
 	height: 120vh;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-	background-image: url(../images/bg1.jpg);
+	background-image: url(../images/bg0.jpg);
 }
 .fade-carousel .slides .slide-2 {
-	background-image: url(../images/bg2.jpg);
+	background-image: url(../images/bg1.jpg);
 }
 .fade-carousel .slides .slide-3 {
+	background-image: url(../images/bg2.jpg);
+}
+.fade-carousel .slides .slide-4 {
 	background-image: url(../images/bg3.jpg);
 }
 .item.slides:before {

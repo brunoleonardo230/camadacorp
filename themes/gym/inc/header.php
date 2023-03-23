@@ -47,7 +47,8 @@
                     <div class="navbar-collapse collapse clearfix">
                         <ul class="nav navbar-nav navbar-right  ml-auto" id="onenav">
                             <li class="nav-link <?= ($URL[0] == 'index' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>" title="<?= SITE_NAME; ?>" class="js-scroll-trigger"><span itemprop="name">Home</span></a></li>
-                            <li class="nav-link <?= ($URL[0] == 'sobre' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>/sobre" title="Sobre" class="js-scroll-trigger"><span itemprop="name">Sobre</span></a></li>
+                            <li class="nav-link <?= ($URL[0] == 'ebook' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>/ebook" title="Ebook" class="js-scroll-trigger"><span itemprop="name">Ebook</span></a></li>
+                            <li class=" nav-link <?= ($URL[0] == 'sobre' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>/sobre" title="Sobre" class="js-scroll-trigger"><span itemprop="name">Sobre</span></a></li>
                             <!-- <li class="nav-link <?= ($URL[0] == 'aulas' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>/aulas" title="Aulas" class="js-scroll-trigger"><span itemprop="name">Aulas</span></a></li>
                             <li class="nav-link <?= ($URL[0] == 'horarios' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>/horarios" title="Horários" class="js-scroll-trigger"><span itemprop="name">Horários</span></a></li>
                             <li class="nav-link <?= ($URL[0] == 'treinadores' ? 'current' : ''); ?>"><a itemprop="url" href="<?= BASE; ?>/treinadores" title="Treinadores" class="js-scroll-trigger"><span itemprop="name">Treinadores</span></a></li>

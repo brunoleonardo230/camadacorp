@@ -16,13 +16,21 @@
             <div class="item slides active">
                 <div class="slide-1"></div>
                 <div class="hero">
+                    <h2 class="sec-title title"><span>Ebook</span> <?= SITE_NAME; ?></h2>
+                    <p>Anabolic Expert - Ciclos Masculinos, Femininos e  TPC.</p>
+                    <a href="<?= BASE; ?>/ebook" class="btn btn-hero btn-lg" role="button" title="ebook">Conheça nosso Ebook</a>
+                </div>
+            </div>
+            <div class="item slides ">
+                <div class="slide-2"></div>
+                <div class="hero">
                     <h2 class="sec-title title"><span><?= SITE_NAME; ?></span> Agencia de Consultoria</h2>
                     <p>Avaliação Física com bioimpedância.</p>
                     <a href="<?= BASE; ?>/contato" class="btn btn-hero btn-lg" role="button" title="Contato">Contato</a>
                 </div>
             </div>
             <div class="item slides">
-                <div class="slide-2"></div>
+                <div class="slide-3"></div>
                 <div class="hero">
                     <h2 class="sec-title title"><span><?= SITE_NAME; ?></span> Agencia de Consultoria</h2>
                     <p>Nutrição Esportiva.</p>
@@ -30,7 +38,7 @@
                 </div>
             </div>
             <div class="item slides">
-                <div class="slide-3"></div>
+                <div class="slide-4"></div>
                 <div class="hero">
                     <h2 class="sec-title title"><span><?= SITE_NAME; ?></span> Agencia de Consultoria</h2>
                     <p>Prescrição de Treino e Recursos Ergogênicos.</p>
@@ -43,6 +51,31 @@
     </div>
 </section>
 <!-- Carousel End -->
+
+<!-- /About Start-->
+<section class="about_sec about_inner_page">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-4">
+                <div class="about_img">
+                    <img class="img-responsive" src="<?= INCLUDE_PATH; ?>/assets/images/EbookGabriel.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="about_inner_page_con">
+                        <h2 class="title"><span>Conheça </span> nosso ebook</h2>
+                        <p>Está cansado de seguir dietas e rotinas de exercícios rigorosas e ainda assim não ver resultados significativos? Eu te ensino tudo que precisa fazer nesse Ebook.</p>
+                        <p>Te ofereço orientações práticas para a administração adequada dessas substâncias, incluindo ciclos de uso, opções de dosagem e a famosa TPC (terapia pós-ciclo). Se você está pensando em usar esteróides anabolizantes para melhorar seu desempenho físico, este livro é um recurso valioso para ajudá-lo a tomar decisões informadas e seguras.</p>
+                        <p>Compre agora e obtenha acesso a informações valiosas que podem ajudá-lo a alcançar seus objetivos de forma segura e eficaz. Não arrisque sua saúde e bem-estar com o uso imprudente de esteróides anabolizantes. Leia este ebook e comece a sua jornada de condicionamento físico com segurança e confiança.</p>
+                        
+                        <a href="https://pay.hotmart.com/K80019717A" class="primary-btn about_btn" title="Contato"> Adquira já!</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /About End-->
 
 <!-- Gallery Start -->
 <div itemscope itemtype="http://schema.org/ImageGallery" class="gallery">

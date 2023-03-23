@@ -82,7 +82,7 @@
 <!-- /Counter End-->
 
 <!-- /Testimonials Start-->
-<section class="testimonials">
+<!-- <section class="testimonials">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -123,11 +123,11 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- /Testimonials End-->
 
 <!-- /Trainer Start-->
-<section class="inner_trainer Trainer_sec" id="Trainer">
+<!-- <section class="inner_trainer Trainer_sec" id="Trainer">
     <div class="container">
         <div class="row">
             <div class="col-md-6"></div>
@@ -157,7 +157,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- /Trainer End-->
 
 <!-- Gallery Start -->
