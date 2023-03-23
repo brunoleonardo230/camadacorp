@@ -49,19 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="location_box">
-                    <div class="location_icon">
-                        <img class="img-responsive hoverin" src="<?= INCLUDE_PATH; ?>/assets/images/location.png" alt="">
-                        <img class="img-responsive hoverout" src="<?= INCLUDE_PATH; ?>/assets/images/location_hover.png" alt="">
-                    </div>
-                    <div class="location_address">
-                        <p>
-                            <a href="mailto:<?= SITE_ADDR_EMAIL; ?>"><?= SITE_ADDR_EMAIL; ?></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+            
             <div class="col-md-4 col-sm-4">
                 <div class="location_box">
                     <div class="location_icon">
@@ -72,6 +60,19 @@
                         <p>
                             Seg - Sáb: 06:00 - 23:00<br>
                             Domingo: Fechado
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="location_box">
+                    <div class="location_icon">
+                        <img class="img-responsive hoverin" src="<?= INCLUDE_PATH; ?>/assets/images/location.png" alt="">
+                        <img class="img-responsive hoverout" src="<?= INCLUDE_PATH; ?>/assets/images/location_hover.png" alt="">
+                    </div>
+                    <div class="location_address">
+                        <p>
+                            <a href="mailto:<?= SITE_ADDR_EMAIL; ?>"><?= SITE_ADDR_EMAIL; ?></a>
                         </p>
                     </div>
                 </div>
@@ -87,7 +88,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="about_inner_page_con title_box">
-                    <h2 class="title"><span>Contatoxx</span>Fale Conosco</h2>
+                    <h2 class="title"><span>Contato</span>Fale Conosco</h2>
                 </div>
             </div>
         </div>

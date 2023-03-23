@@ -8,14 +8,14 @@
                 </a>
             </div>
             <div class="slide-bottom footer-menu">
-                <ul class="nav-menu">
+                <!-- <ul class="nav-menu">
                     <li><a href="<?= BASE; ?>" title="<?= SITE_NAME; ?>">Home</a></li>
                     <li><a href="<?= BASE; ?>/sobre" title="Sobre">Sobre</a></li>
                     <li><a href="<?= BASE; ?>/aulas" title="Aulas">Aulas</a></li>
                     <li><a href="<?= BASE; ?>/horarios" title="Horários">Horários</a></li>
                     <li><a href="<?= BASE; ?>/artigos" title="Blog">Blog</a></li>
                     <li><a href="<?= BASE; ?>/contato" title="Contato">Contato</a></li>
-                </ul>
+                </ul> -->
             </div>
             <div class="slide-bottom footer-mail">
                 <form class="newsletter-form"  name="newsletter" action=""
