@@ -4,7 +4,7 @@
         <div class="container">
             <div class="slide-top footer-logo">
                 <a href="<?= BASE; ?>" title="<?= SITE_NAME; ?>">
-                    <h2 class="logo_name"> CORPORAÇÃO<span class="white_text">CAMADA </span></h2>
+                    <h2 class="logo_name"> CORPORAÇÃO <span class="white_text">CAMADA </span></h2>
                 </a>
             </div>
             <div class="slide-bottom footer-menu">

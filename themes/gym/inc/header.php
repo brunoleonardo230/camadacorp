@@ -31,7 +31,7 @@
         <div class="container clearfix">
             <div class="logo pull-left">
                 <a href="<?= BASE; ?>" title="<?= SITE_NAME; ?>">
-                    <h2 class="logo_name"> CORPORAÇÃO<span class="white_text">CAMADA </span></h2>
+                    <h2 class="logo_name"> CORPORAÇÃO <span class="white_text">CAMADA </span></h2>
                 </a>
             </div>
             <div class="right-cont clearfix">
