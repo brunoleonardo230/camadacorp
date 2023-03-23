@@ -22,7 +22,7 @@
 <div class="contact_detail">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-4">
+            <!-- <div class="col-md-4 col-sm-4">
                 <div class="location_box">
                     <div class="location_icon">
                         <img class="img-responsive hoverin" src="<?= INCLUDE_PATH; ?>/assets/images/location.png" alt="">
@@ -35,7 +35,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="col-md-4 col-sm-4">
                 <div class="location_box">
                     <div class="location_icon">
@@ -44,7 +44,19 @@
                     </div>
                     <div class="location_address">
                         <p>
-                        <a href="https://wa.me/13155104263?text=Quero+fazer+uma+consultoria+esportiva.+" target="_blank">Whatsapp</a>
+                        <a href="https://wa.me/13155104263?text=Quero+fazer+uma+consultoria+esportiva.+" target="_blank">Whatsapp</a>                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="location_box">
+                    <div class="location_icon">
+                        <img class="img-responsive hoverin" src="<?= INCLUDE_PATH; ?>/assets/images/location.png" alt="">
+                        <img class="img-responsive hoverout" src="<?= INCLUDE_PATH; ?>/assets/images/location_hover.png" alt="">
+                    </div>
+                    <div class="location_address">
+                        <p>
                             <a href="mailto:<?= SITE_ADDR_EMAIL; ?>"><?= SITE_ADDR_EMAIL; ?></a>
                         </p>
                     </div>
