@@ -118,6 +118,8 @@ else:
     <meta property="twitter:image" content="<?= $SEO->getImage(); ?>"/>
     <meta property="twitter:url" content="<?= BASE; ?>/<?= $getURL; ?>"/>
 
+    <meta name="facebook-domain-verification" content="q395y69db4ir4wp1u75eu91p8wdt7q" />
+
     <link type="image/x-icon" rel="shortcut icon" href="<?= INCLUDE_PATH; ?>/assets/images/favicon.png"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800" rel="stylesheet">
