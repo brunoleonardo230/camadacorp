@@ -9,7 +9,7 @@
                              src="<?= INCLUDE_PATH; ?>/assets/images/title-bg.png" alt="">
                     </div>
                     <div class="page_banner_title">
-                        <h2 class="wow fadeInUp animated title_animate">Ebook <?= SITE_NAME; ?></h2>
+                        <h2 class="wow fadeInUp animated title_animate">Ebook </h2>
                         <p class="wow fadeInUp animated titlep_animate"><?= mb_strtoupper("Anabolic Expert - Ciclos Masculinos, Femininos e  TPC"); ?></p>
                     </div>
                 </div>
