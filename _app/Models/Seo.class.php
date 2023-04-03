@@ -319,6 +319,12 @@ class Seo {
             $this->Schema = 'WebSite';
             $this->Title = "Contato - " . SITE_NAME;
             $this->Description = SITE_DESC;
+            $this->Image = INCLUDE_PATH . '/images/default.jpg'; 
+        elseif ($this->File == 'ebook'):
+            //EBOOK
+            $this->Schema = 'WebSite';
+            $this->Title = "Ebook - " . SITE_NAME;
+            $this->Description = SITE_DESC;
             $this->Image = INCLUDE_PATH . '/images/default.jpg';    
         else:
             //404

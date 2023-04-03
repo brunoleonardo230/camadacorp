@@ -44,7 +44,7 @@
                     </div>
                     <div class="location_address">
                         <p>
-                        <a href="https://wa.me/13155104263?text=Quero+fazer+uma+consultoria+esportiva.+" target="_blank">Whatsapp</a>                            
+                        <a href="https://wa.me/559881875454?text=Quero+fazer+uma+consultoria+esportiva.+" target="_blank">Whatsapp</a>                            
                         </p>
                     </div>
                 </div>
